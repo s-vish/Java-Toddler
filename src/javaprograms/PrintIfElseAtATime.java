@@ -1,6 +1,5 @@
 package javaprograms;
 
-import java.io.PrintStream;
 
 public class PrintIfElseAtATime {
 	
@@ -10,7 +9,7 @@ public class PrintIfElseAtATime {
 	 * @param args
 	 */
 
-	private void print()
+	public void print()
 	{
 		if(System.out.printf("Hello If block \n")==null) {}
 		else System.out.print("HEllo Else blcok!");

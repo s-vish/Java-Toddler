@@ -3,13 +3,14 @@ package javaprograms;
 public class AddAndSubtractWithoutOperator {
 
 	/**
+	 * Program - 4
 	 * How to add & subtract without using + and - operators respectively.
 	 */
 	
-	int a=12;
-	int b = 5;
-	int c;
-	private void operationPlus()
+	private int a=12;
+	private int b = 5;
+	private int c;
+	public void operationPlus()
 	{
 		//addition without '+' operator
 		c=a-(-b);
@@ -17,7 +18,7 @@ public class AddAndSubtractWithoutOperator {
 		
 	}
 	
-	private void operationMinus()
+	public void operationMinus()
 	{
 		//suntraction without '-' operator
 		c=a+(~b+1);

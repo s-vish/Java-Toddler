@@ -3,6 +3,7 @@ package javaprograms;
 public class Swapping {
 
 	/**
+	 * program - 5
 	 * Swap two numbers using Addition and Subtraction operators.
 	 * Swap two numbers using Multiplication and Division operators.
 	 * Swap two numbers using Bitwise operator.
@@ -11,12 +12,12 @@ public class Swapping {
 	 * Swap four numbers
 	 */
 	
-	int a =6;
-	int b = 2;
-	int c=10;
-	int d=14;
+	private int a =6;
+	private int b = 2;
+	private  int c=10;
+	private int d=14;
 	
-	private void swapUsingPlusAndMinus()
+	public void swapUsingPlusAndMinus()
 	{
 		System.out.println("Using Addition and Subtraction operators.");
 		System.out.printf("Before swapping : a=%d and b=%d \n",a,b);
@@ -29,7 +30,7 @@ public class Swapping {
 		 */
 	}
 	
-	private void swapUsingMulAndDiv()
+	public void swapUsingMulAndDiv()
 	{
 		System.out.println("\nUsing Multiplication and Division operators.");
 		System.out.printf("Before swapping : a=%d and b=%d \n",a,b);
@@ -43,7 +44,7 @@ public class Swapping {
 		 */
 	}
 	
-	private void swapUsingBitwiseOperator()
+	public void swapUsingBitwiseOperator()
 	{
 		System.out.println("\nSwap two numbers using Bitwise operator.");
 		System.out.printf("Before swapping : a=%d and b=%d \n",a,b);
@@ -57,7 +58,7 @@ public class Swapping {
 		 */
 	}
 	
-	private void singleLineSwappingOperation() {
+	public void singleLineSwappingOperation() {
 		System.out.println("\nSwap two numbers using Bitwise operator.");
 		System.out.printf("Before swapping : a=%d and b=%d \n",a,b);
 //		a=a+b-(b=a);	//or 
@@ -66,7 +67,7 @@ public class Swapping {
 		System.out.printf("After swapping : a=%d and b=%d \n",a,b);
 	}
 	
-	private void swapThreeNumbers()
+	public void swapThreeNumbers()
 	{
 		System.out.println("\nSwap three numbers using Bitwise operator.");
 		System.out.printf("Before swapping : a=%d and b=%d c=%d\n",a,b,c);
@@ -75,7 +76,7 @@ public class Swapping {
 		System.out.printf("After swapping : a=%d b=%d and c=%d\n",a,b,c);
 	}
 	
-	private void swapFourNumbers()
+	public void swapFourNumbers()
 	{
 		System.out.println("\nSwap four numbers using Bitwise operator.");
 		System.out.printf("Before swapping : a=%d and b=%d c=%d and d=%d \n",a,b,c,d);
