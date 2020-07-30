@@ -40,6 +40,7 @@ public class CountVowelsConsonantsSpecialSymbols {
 		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter the text....");
 		obj.count(scr.nextLine().toString());
+		scr.close();
 	}
 
 }
