@@ -5,13 +5,14 @@ import java.util.Scanner;
 public class VerifyIntegerString {
 	
 	/**
+	 * Program - 6
 	 * How to verify if a String contains only integers
 	 */
 
 	//Approach - 1
 	public void check(String str)
 	{
-		char y[]=str.toCharArray();
+		char y[]=str.toCharArray(); // here we are using character array to extact each character from the object.
 		int size = y.length;
 		
 		int i=0;
@@ -34,6 +35,7 @@ public class VerifyIntegerString {
 	//Approach - 2
 	public void check2(String str)
 	{
+		// In this program we are using charAt() method to deal with each charater stored in str object.
 		int size = str.length();
 		int i = 0;
 		while(i!=size)

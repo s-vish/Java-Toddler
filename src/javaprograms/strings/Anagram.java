@@ -4,7 +4,10 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
+ * Program - 8
  * Program to verify input strings are Anagram or not.
+ * 
+ * Anagram is a word or phrase formed by rearranging the letters of a different word or phrase.
  */
 public class Anagram {
 	//example of anagram -  silent, listen | brainy, binary | aradhya, hradaya | aradhya He IS, HE iS hRadAya

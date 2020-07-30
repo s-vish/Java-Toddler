@@ -3,6 +3,7 @@ package javaprograms.strings;
 import java.util.Scanner;
 
 /**
+ * Program - 7
  * How to count vowels, consonants & special symbols in a String
  */
 public class CountVowelsConsonantsSpecialSymbols {
