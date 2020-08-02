@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Program - 5
- * here formula is upper_case = lower_case - 32 lower_case= upper_case+32
+ * here formula is (upper_case = lower_case - 32) &  (lower_case= upper_case + 32)
  */
 public class ConvertCase {
 
@@ -16,7 +16,7 @@ public class ConvertCase {
 		int i = 0;
 
 		while (i != size) {
-			if (x[i] != ' ') {
+			if (x[i] != ' ') { //if condition performs uppercase conversion operation only if character is not a blank space.
 				x[i] = (char) (x[i] - 32);
 			}
 			++i;

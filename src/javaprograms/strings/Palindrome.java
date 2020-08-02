@@ -10,8 +10,8 @@ public class Palindrome {
 
 	public void palindromeCheck(String str) {
 	String userInput = str;
-	userInput = userInput.replace(" ", "");
-	userInput = userInput.toUpperCase();
+	userInput = userInput.replace(" ", ""); //removes black spaces
+	userInput = userInput.toUpperCase(); //convert all to characters in string to upper case.
 	char x[]=userInput.toCharArray();
 	int size = x.length;
 	

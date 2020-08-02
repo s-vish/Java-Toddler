@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /** 
  *program - 3
- *Copy one String to another 
+ *Copy one String to another in reverse order.
  */
 public class ReverseTheString {
 	public void reverseString(String str)
