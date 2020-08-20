@@ -6,6 +6,10 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 
+/**
+ * Program - 3
+ * Print all non-repeating characters from the string
+ */
 public class PrintAllNonRepeatedCharactersInString {
 
 	public void printNonRepeatedCharacters(String str) {

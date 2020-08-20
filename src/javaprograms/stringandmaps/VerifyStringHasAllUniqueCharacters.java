@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 /**
- * Program - 1
+ * Program - 2
  * Verify String has ALL UNIQUE CHARACTERS or NOT
  * e.g. 'spiderman' is having all unique characters where as 'sillyspiderman' is not having unique characters.
  */
