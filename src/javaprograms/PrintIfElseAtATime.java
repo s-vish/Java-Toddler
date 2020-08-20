@@ -5,7 +5,7 @@ public class PrintIfElseAtATime {
 	
 	/**
 	 * program -3
-	 * Challenge is to print If block and else block at a time.
+	 * Challenge is to print 'If' block and 'else' block at a time.
 	 * @param args
 	 */
 

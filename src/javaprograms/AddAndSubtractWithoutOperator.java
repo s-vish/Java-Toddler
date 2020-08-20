@@ -20,7 +20,7 @@ public class AddAndSubtractWithoutOperator {
 	
 	public void operationMinus()
 	{
-		//suntraction without '-' operator
+		//subtraction without '-' operator
 		c=a+(~b+1);
 		System.out.println("subtraction of A & B is "+c);
 		

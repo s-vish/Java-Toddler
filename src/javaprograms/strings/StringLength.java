@@ -18,10 +18,9 @@ public class StringLength {
 		scr.close();
 		str = str.concat("\0");  //'\0' is an escape character
 		char y[]=str.toCharArray();
+		
 		int i=0;
 		int count=0;
-		
-		
 		while(y[i]!='\0')
 		{
 			++count;

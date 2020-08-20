@@ -4,6 +4,7 @@ package javaprograms.strings;
  * Program - 9
  * Verify is the string is a pangram
  * pangram is a sentence using every letter of a given alphabet at least once.
+ * e.g - the quick brown fox jumps over a lazy dog
  */
 public class Pangram {
 

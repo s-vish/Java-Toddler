@@ -2,12 +2,15 @@ package javaprograms.strings;
 
 public class ReverseStringPreservingSpacePositions {
 	/**
+	 * Program - 10
 	 * Reverse a string preserving space positions
+	 * e.g. given string - Hi This is Vishal
+	 * 		result string- la shiV si sihTiH
 	 */
 	
 	
 	public void reverseMethod() {
-		String str = "panda is very good";
+		String str = "i am Vish";
 		char[] resultInput=str.toCharArray();
 		char[] reverse = new char[resultInput.length];
 		
@@ -22,7 +25,7 @@ public class ReverseStringPreservingSpacePositions {
 		}
 		
 		i=0;
-		int j = reverse.length-1;
+		int j = reverse.length-1; //4
 		while(i!=resultInput.length)
 		{
 			if(resultInput[i]!=' ')

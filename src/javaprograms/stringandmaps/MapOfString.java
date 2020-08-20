@@ -5,6 +5,12 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
+/**
+ * Map stores data in Key, Value format.
+ * 
+ *
+ */
+
 public class MapOfString {
 	
 	public static void main(String[] args) {

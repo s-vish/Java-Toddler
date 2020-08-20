@@ -13,7 +13,7 @@ public class Swapping {
 	 */
 	
 	private int a =6;
-	private int b = 2;
+	private int b = 0;
 	private  int c=10;
 	private int d=14;
 	
@@ -94,7 +94,7 @@ public class Swapping {
 //		obj.swapUsingBitwiseOperator();
 //		obj.singleLineSwappingOperation();
 //		obj.swapThreeNumbers();
-		obj.swapFourNumbers();
+//		obj.swapFourNumbers();
 	}
 
 }
