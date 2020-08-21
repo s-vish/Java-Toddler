@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 /**
- * print duplicate characters present in a String using Maps
+ * Program - 6 print duplicate characters present in a String using Maps
  *
  */
 public class PrintDuplicateCharactersFromString {
