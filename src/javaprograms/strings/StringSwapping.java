@@ -3,8 +3,8 @@ package javaprograms.strings;
 import java.util.Scanner;
 
 /**
+ * Program-13
  * Swipe two string without using 3rd String variable
- *
  */
 public class StringSwapping {
 
@@ -15,7 +15,6 @@ public class StringSwapping {
 		str2=str1.substring(0, str1.length()-str2.length());
 		str1=str1.substring(str2.length());
 		System.out.printf("\nAfter swapping \n"+"String one is "+str1 +"\n"+"String two is "+str2);
-		
 	}
 	
 	public static void main(String[] args) {
@@ -28,5 +27,4 @@ public class StringSwapping {
 		obj.swipe(str1, str2);
 		scr.close();
 	}
-
 }

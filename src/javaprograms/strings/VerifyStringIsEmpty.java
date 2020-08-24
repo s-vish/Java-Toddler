@@ -1,6 +1,7 @@
 package javaprograms.strings;
 
 /**
+ * Program - 12
  * Note: String is considered as empty when length of the string is zero
  */
 public class VerifyStringIsEmpty {
