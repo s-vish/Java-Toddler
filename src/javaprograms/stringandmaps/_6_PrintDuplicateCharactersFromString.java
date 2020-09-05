@@ -9,7 +9,7 @@ import java.util.Set;
  * Program - 6 print duplicate characters present in a String using Maps
  *
  */
-public class PrintDuplicateCharactersFromString {
+public class _6_PrintDuplicateCharactersFromString {
 
 	public void printDuplicateCharacters(String str)
 	{
@@ -42,7 +42,7 @@ public class PrintDuplicateCharactersFromString {
 	}
 	
 	public static void main(String[] args) {
-		PrintDuplicateCharactersFromString obj =new PrintDuplicateCharactersFromString();
+		_6_PrintDuplicateCharactersFromString obj =new _6_PrintDuplicateCharactersFromString();
 		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter the String..."); //e.g 'sillyspider' , 'maharashtra' , 'bangaluru'
 		obj.printDuplicateCharacters(scr.nextLine());

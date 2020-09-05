@@ -6,7 +6,7 @@ package javaprograms.strings;
  * pangram is a sentence using every letter of a given alphabet at least once.
  * e.g - the quick brown fox jumps over a lazy dog
  */
-public class Pangram {
+public class _9_Pangram {
 
 	
 	public void checkPanram(String str)
@@ -38,7 +38,7 @@ public class Pangram {
 	System.out.println("it is a Pangram");
 	}
 	public static void main(String[] args) {
-		Pangram obj = new Pangram();
+		_9_Pangram obj = new _9_Pangram();
 		obj.checkPanram("the quick brown fox jumps over a lazy dog");
 	}
 }

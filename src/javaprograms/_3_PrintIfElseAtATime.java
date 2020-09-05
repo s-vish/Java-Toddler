@@ -1,7 +1,7 @@
 package javaprograms;
 
 
-public class PrintIfElseAtATime {
+public class _3_PrintIfElseAtATime {
 	
 	/**
 	 * program -3
@@ -19,7 +19,7 @@ public class PrintIfElseAtATime {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		PrintIfElseAtATime obj = new PrintIfElseAtATime();
+		_3_PrintIfElseAtATime obj = new _3_PrintIfElseAtATime();
 		obj.print();
 		
 		 

@@ -4,7 +4,7 @@ package javaprograms.strings;
  * Program - 12
  * Note: String is considered as empty when length of the string is zero
  */
-public class VerifyStringIsEmpty {
+public class _12_VerifyStringIsEmpty {
 
 	public void verifyLength(String str)
 	{
@@ -16,7 +16,7 @@ public class VerifyStringIsEmpty {
 	}
 	
 	public static void main(String[] args) {
-		VerifyStringIsEmpty obj =new VerifyStringIsEmpty();
+		_12_VerifyStringIsEmpty obj =new _12_VerifyStringIsEmpty();
 		String str =""; //other inputs 1. only space | 2. null
 		obj.verifyLength(str);
 	}

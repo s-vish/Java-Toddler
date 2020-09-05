@@ -9,7 +9,7 @@ import java.util.Scanner;
  * [upper_case = lower_case - 32]
  * [lower_case= upper_case + 32]
  */
-public class ConvertCase {
+public class _5_ConvertCase {
 
 	// Program to convert loser case string to upper case
 	public void lowerToUpper(String str) {
@@ -46,7 +46,7 @@ public class ConvertCase {
 		System.out.println(x);
 	}
 
-	// Program to convert first letter of every work in upper case.
+	// Program to convert first letter of every word in upper case.
 	public void upperFirstUpperCase(String str) {
 		String userInput = str;
 		
@@ -69,7 +69,7 @@ public class ConvertCase {
 	}
 
 	public static void main(String[] args) {
-		ConvertCase obj = new ConvertCase();
+		_5_ConvertCase obj = new _5_ConvertCase();
 		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter the text...");
 

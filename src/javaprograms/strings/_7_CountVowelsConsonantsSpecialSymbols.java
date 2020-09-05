@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Program - 7
  * How to count vowels, consonants & special symbols in a String
  */
-public class CountVowelsConsonantsSpecialSymbols {
+public class _7_CountVowelsConsonantsSpecialSymbols {
 
 	public void count(String str) {
 		String userInput = str;
@@ -37,7 +37,7 @@ public class CountVowelsConsonantsSpecialSymbols {
 	}
 
 	public static void main(String[] args) {
-		CountVowelsConsonantsSpecialSymbols obj = new CountVowelsConsonantsSpecialSymbols();
+		_7_CountVowelsConsonantsSpecialSymbols obj = new _7_CountVowelsConsonantsSpecialSymbols();
 		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter the text....");
 		obj.count(scr.nextLine().toString());

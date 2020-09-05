@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Program-13
  * Swipe two string without using 3rd String variable
  */
-public class StringSwapping {
+public class _13_StringSwapping {
 
 	public void swipe(String str1, String str2)
 	{
@@ -23,7 +23,7 @@ public class StringSwapping {
 		String str1 = scr.nextLine();
 		System.out.println("Enter the seconds String");
 		String str2=scr.nextLine();
-		StringSwapping obj = new StringSwapping();
+		_13_StringSwapping obj = new _13_StringSwapping();
 		obj.swipe(str1, str2);
 		scr.close();
 	}

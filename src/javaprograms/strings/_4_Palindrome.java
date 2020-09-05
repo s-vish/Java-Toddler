@@ -1,3 +1,4 @@
+
 package javaprograms.strings;
 
 import java.util.Scanner;
@@ -6,7 +7,7 @@ import java.util.Scanner;
  * program -4
  * String is Palindrome or not.
  */
-public class Palindrome {
+public class _4_Palindrome {
 
 	public void palindromeCheck(String str) {
 	String userInput = str;
@@ -46,7 +47,7 @@ public class Palindrome {
 		String inputText = scr.nextLine();
 		scr.close();
 
-		Palindrome obj = new Palindrome();
+		_4_Palindrome obj = new _4_Palindrome();
 		obj.palindromeCheck(inputText);
 	}
 	

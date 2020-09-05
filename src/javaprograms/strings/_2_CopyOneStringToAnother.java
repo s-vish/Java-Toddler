@@ -6,7 +6,7 @@ import java.util.Scanner;
  *program - 2
  *Copy one String to another 
  */
-public class CopyOneStringToAnother {
+public class _2_CopyOneStringToAnother {
 	
 	public void copyString(String str)
 	{
@@ -34,7 +34,7 @@ public class CopyOneStringToAnother {
 		String s = scr.nextLine();
 		scr.close();
 		System.out.println("\n");
-		CopyOneStringToAnother obj = new CopyOneStringToAnother();
+		_2_CopyOneStringToAnother obj = new _2_CopyOneStringToAnother();
 		obj.copyString(s);
 		
 	}

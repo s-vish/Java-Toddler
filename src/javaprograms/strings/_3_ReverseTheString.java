@@ -7,7 +7,7 @@ import java.util.Scanner;
  *program - 3
  *Copy one String to another in reverse order.
  */
-public class ReverseTheString {
+public class _3_ReverseTheString {
 	public void reverseString(String str)
 	{
 		String actualString = str;
@@ -30,7 +30,7 @@ public class ReverseTheString {
 		
 		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter the text");
-		ReverseTheString obj =new ReverseTheString();
+		_3_ReverseTheString obj =new _3_ReverseTheString();
 		obj.reverseString(scr.nextLine());
 		scr.close();
 				

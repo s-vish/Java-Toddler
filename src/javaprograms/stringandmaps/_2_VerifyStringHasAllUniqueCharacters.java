@@ -10,7 +10,7 @@ import java.util.Set;
  * Verify String has ALL UNIQUE CHARACTERS or NOT
  * e.g. 'spiderman' is having all unique characters where as 'sillyspiderman' is not having unique characters.
  */
-public class VerifyStringHasAllUniqueCharacters {
+public class _2_VerifyStringHasAllUniqueCharacters {
 	
 	public void verifyMethod(String str)
 	{
@@ -53,7 +53,7 @@ public class VerifyStringHasAllUniqueCharacters {
 		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter the String..");
 		String inputStr = scr.nextLine();
-		VerifyStringHasAllUniqueCharacters obj = new VerifyStringHasAllUniqueCharacters();
+		_2_VerifyStringHasAllUniqueCharacters obj = new _2_VerifyStringHasAllUniqueCharacters();
 		obj.verifyMethod(inputStr);
 		scr.close();
 	}

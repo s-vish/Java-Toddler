@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 
  * Anagram is a word or phrase formed by rearranging the letters of a different word or phrase.
  */
-public class Anagram {
+public class _8_Anagram {
 	//example of anagram -  silent, listen | brainy, binary | aradhya, hradaya | aradhya He IS, HE iS hRadAya
 	public void check(String first_str, String second_str)
 	{
@@ -30,7 +30,7 @@ public class Anagram {
 	}
 	
 	public static void main(String[] args) {
-		Anagram obj = new Anagram();
+		_8_Anagram obj = new _8_Anagram();
 		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter first String");
 		String str_one = scr.nextLine();

@@ -3,7 +3,7 @@ package javaprograms.strings;
 /**
  * Program - 11
  */
-public class RemoveAllSpaces {
+public class _11_RemoveAllSpaces {
 
 	public void replaceSpace(String str)
 	{
@@ -14,7 +14,7 @@ public class RemoveAllSpaces {
 	}
 	
 	public static void main(String[] args) {
-		RemoveAllSpaces obj =new RemoveAllSpaces();
+		_11_RemoveAllSpaces obj =new _11_RemoveAllSpaces();
 		obj.replaceSpace("Hello world a			b");
 	}
 	

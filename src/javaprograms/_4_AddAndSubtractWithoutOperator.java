@@ -1,6 +1,6 @@
 package javaprograms;
 
-public class AddAndSubtractWithoutOperator {
+public class _4_AddAndSubtractWithoutOperator {
 
 	/**
 	 * Program - 4
@@ -26,7 +26,7 @@ public class AddAndSubtractWithoutOperator {
 		
 	}
 	public static void main(String[] args) {
-		AddAndSubtractWithoutOperator obj = new AddAndSubtractWithoutOperator();
+		_4_AddAndSubtractWithoutOperator obj = new _4_AddAndSubtractWithoutOperator();
 		obj.operationPlus();
 		obj.operationMinus();
 

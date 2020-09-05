@@ -1,6 +1,6 @@
 package javaprograms;
 
-public class PrintWithoutSemicolon {
+public class _1_PrintWithoutSemicolon {
 	
 	/**
 	 * Program - 1

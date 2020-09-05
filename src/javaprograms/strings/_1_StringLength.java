@@ -2,7 +2,7 @@ package javaprograms.strings;
 
 import java.util.Scanner;
 
-public class StringLength {
+public class _1_StringLength {
 	
 	/**
 	 * program - 1
@@ -34,7 +34,7 @@ public class StringLength {
 	}
 	
 	public static void main(String[] args) {
-		StringLength obj = new StringLength();
+		_1_StringLength obj = new _1_StringLength();
 		obj.stringLength();
 		
 	}

@@ -10,7 +10,7 @@ import java.util.Set;
  * Program - 3
  * Print all non-repeating characters from the string
  */
-public class PrintAllNonRepeatedCharactersInString {
+public class _3_PrintAllNonRepeatedCharactersInString {
 
 	public void printNonRepeatedCharacters(String str) {
 
@@ -55,7 +55,7 @@ public class PrintAllNonRepeatedCharactersInString {
 	public static void main(String[] args) {
 		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter the string value...");
-		PrintAllNonRepeatedCharactersInString obj = new PrintAllNonRepeatedCharactersInString();
+		_3_PrintAllNonRepeatedCharactersInString obj = new _3_PrintAllNonRepeatedCharactersInString();
 		obj.printNonRepeatedCharacters(scr.nextLine());
 		scr.close();
 	}

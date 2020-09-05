@@ -1,6 +1,6 @@
 package javaprograms;
 
-public class PrintSemicolonWithoutUsingSemicolon {
+public class _2_PrintSemicolonWithoutUsingSemicolon {
 
 	/**
 	 * Program - 2
@@ -18,7 +18,7 @@ public class PrintSemicolonWithoutUsingSemicolon {
 		if(System.out.printf("%c",+59)==null) {}
 	}
 	public static void main(String[] args) {
-		PrintSemicolonWithoutUsingSemicolon obj = new PrintSemicolonWithoutUsingSemicolon();
+		_2_PrintSemicolonWithoutUsingSemicolon obj = new _2_PrintSemicolonWithoutUsingSemicolon();
 		obj.printSemicolonWithoutSemicolon();
 		obj.printSemicolonWithoutSemicolonAtTheEnd();
 		

@@ -2,7 +2,7 @@ package javaprograms.strings;
 
 import java.util.Scanner;
 
-public class VerifyIntegerString {
+public class _6_VerifyIntegerString {
 	
 	/**
 	 * Program - 6
@@ -54,7 +54,7 @@ public class VerifyIntegerString {
 	}
 	
 	public static void main(String[] args) {
-		VerifyIntegerString obj = new VerifyIntegerString();
+		_6_VerifyIntegerString obj = new _6_VerifyIntegerString();
 		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter the text...");
 //		obj.check(scr.nextLine().toString());

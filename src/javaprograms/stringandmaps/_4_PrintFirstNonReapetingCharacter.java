@@ -10,7 +10,7 @@ import java.util.Set;
  * Print first non-repeating character from the string.
  * e.g 'sillyspider', 'chocolate', 'lili'
  */
-public class PrintFirstNonReapetingCharacter {
+public class _4_PrintFirstNonReapetingCharacter {
 
 	public void printNonRepeatingCharacter(String str)
 	{
@@ -47,7 +47,7 @@ public class PrintFirstNonReapetingCharacter {
 	}
 	
 	public static void main(String[] args) {
-		PrintFirstNonReapetingCharacter obj = new PrintFirstNonReapetingCharacter();
+		_4_PrintFirstNonReapetingCharacter obj = new _4_PrintFirstNonReapetingCharacter();
 		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter the string...");
 		obj.printNonRepeatingCharacter(scr.nextLine());

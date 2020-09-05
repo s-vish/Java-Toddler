@@ -14,7 +14,7 @@ import java.util.TreeMap;
 
 
 
-public class Maps {
+public class _1_Maps {
 
 /**
  * Sequence of data received as user input is not maintained while storing it.	
@@ -118,7 +118,7 @@ public class Maps {
 	
 	public static void main(String[] args) {
 		
-		Maps obj = new Maps();
+		_1_Maps obj = new _1_Maps();
 //		obj.hashMap("sillyspider");
 //		obj.treeHashMap("sillyspiders");
 		obj.linkedHashMap("sillyspider");

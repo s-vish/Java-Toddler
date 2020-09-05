@@ -1,6 +1,6 @@
 package javaprograms.strings;
 
-public class ReverseStringPreservingSpacePositions {
+public class _10_ReverseStringPreservingSpacePositions {
 	/**
 	 * Program - 10
 	 * Reverse a string preserving space positions
@@ -45,7 +45,7 @@ public class ReverseStringPreservingSpacePositions {
 	}
 	public static void main(String[] args) {
 
-		ReverseStringPreservingSpacePositions obj = new ReverseStringPreservingSpacePositions();
+		_10_ReverseStringPreservingSpacePositions obj = new _10_ReverseStringPreservingSpacePositions();
 		obj.reverseMethod();
 
 }

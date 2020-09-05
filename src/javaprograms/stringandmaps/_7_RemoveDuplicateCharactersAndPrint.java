@@ -9,7 +9,7 @@ import java.util.Set;
  * Program - 7  remove duplicate characters in a String using Maps
  * Print only single occurrence of each letter 
  */
-public class RemoveDuplicateCharactersAndPrint {
+public class _7_RemoveDuplicateCharactersAndPrint {
 	
 	public void printSingleTime(String str)
 	{
@@ -40,7 +40,7 @@ public class RemoveDuplicateCharactersAndPrint {
 	}
 
 	public static void main(String[] args) {
-		RemoveDuplicateCharactersAndPrint obj = new RemoveDuplicateCharactersAndPrint();
+		_7_RemoveDuplicateCharactersAndPrint obj = new _7_RemoveDuplicateCharactersAndPrint();
 		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter the String...");
 		obj.printSingleTime(scr.nextLine());

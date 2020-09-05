@@ -1,6 +1,6 @@
 package javaprograms;
 
-public class Swapping {
+public class _5_Swapping {
 
 	/**
 	 * program - 5
@@ -88,7 +88,7 @@ public class Swapping {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Swapping obj =new Swapping();
+		_5_Swapping obj =new _5_Swapping();
 //		obj.swapUsingPlusAndMinus();
 //		obj.swapUsingMulAndDiv();
 //		obj.swapUsingBitwiseOperator();
